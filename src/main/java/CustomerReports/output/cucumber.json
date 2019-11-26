@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-26T04:12:01.596Z",
+        "line": 4,
+        "name": "Add two numbers",
+        "description": "",
+        "id": "test-calaulator;add-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3239700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter 50 in calculator",
+            "match": {
+              "location": "calc.I_enter_50_in_calculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 945100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I press add",
+            "match": {
+              "location": "calc.I_press_add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1152500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have entered 50 in the calculator",
+            "match": {
+              "location": "calc.I_have_entered_50_in_the_calculator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1178700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I press equal symbol",
+            "match": {
+              "location": "calc.I_press_equal_symbol()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Test Calaulator",
+    "description": " This file describes calculator functionality",
+    "id": "test-calaulator",
+    "keyword": "Feature",
+    "uri": "classpath:github/git.feature",
+    "tags": []
+  }
+]
